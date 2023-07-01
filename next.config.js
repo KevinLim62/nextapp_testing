@@ -5,7 +5,8 @@ const nextConfig = {
   // trailingSlash: true,
   // Optional: Change the output directory `out` -> `dist`
   // distDir: 'dist',
-  basePath: '/nextapp_testing/',
+  basePath: '/nextapp_testing',
+  assetPrefix: '/nextapp_testing/',
 }
 
 module.exports = nextConfig
